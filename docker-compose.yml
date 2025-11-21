@@ -1,0 +1,13 @@
+version: '3.11'
+
+services:
+  tests:
+    build: .
+    container_name: vodfilm_tests
+    volumes:
+      - .:/tests
+    environment:
+      - PYTEST_MARK=${PYTEST_MARK}
+    command: >
+      sh -c "pytest -v -m \"$PYTEST_MARK\""
+    shm_size: 2gb
