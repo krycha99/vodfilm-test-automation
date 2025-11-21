@@ -92,6 +92,19 @@ Błąd numer 1 (Główne zadanie): [Raport nr 1](reports/Blad_nr_1)
   
 Błąd numer 2 (Opcjonalny): [Raport nr 2](reports/Blad_nr_2)
 
+## 7. Analiza teoretyczna SQL
+
+Zakładając, że baza danych posiada tablę movies(tabela z filmami), tabelę categories(tabela z kategoriami) i movie_categories(tabela łącząca między wcześniejszymi tabelami).
+Aby po stronie bazy danych potwierdzić, że film "The Pickup" jest poprawnie powiązany z kategorią naposałbym zapytanie:
+
+```
+SELECT m.title, c.name
+FROM movies m
+JOIN movie_categories mc ON m.id = mc.movie_id
+JOIN categories c ON mc.category_id = c.id
+WHERE m.title = 'The Pickup';
+```
+
 ## Wnioski z realizacji zadania
 
 - **Praca nad lepszym zrozumieniem mechanizmów oczekiwania (waits):**  
