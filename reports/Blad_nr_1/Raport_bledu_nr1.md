@@ -48,13 +48,17 @@ W momencie kliknięcia przycisku “Wyczyść”:
 **Załączniki:**
 
 Przed kliknięciem przycisku "Wyczyść":
+
 ![Przed kliknieciem](Screenshots/przed_kliknieciem.png)
 
 Po kliknięciu przycisku "Wyczyść":
+
 ![Po kliknieciu](Screenshots/po_kliknieciu.png)
 
 Konsola po kliknięciu przycisku "Wyczyść":
+
 ![Konsola](Screenshots/konsola.png)
 
 Zakładka Network po kliknięciu przycisku "Wyczyść":
+
 ![Po kliknieciu](Screenshots/network.png)
