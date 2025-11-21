@@ -52,13 +52,17 @@ Po zastosowaniu sortowania wg. oceny rosnąco i zastosowaniu filtra ocen wyświe
 **Załączniki:**
 
 Wyniki sortowania dla wartości "0.5":
+
 ![Przed filtrem](Screenshots/przed_filtrem.png)
 
 Wyniki sortowania dla wartości "0.6":
+
 ![Po kliknieciu](Screenshots/z_filtrem.png)
 
 Konsola w momencie zmiany filtrowania:
+
 ![Konsola](Screenshots/konsola.png)
 
 Zakładka Network w momencie zmiany filtrowania:
+
 ![Po kliknieciu](Screenshots/network.png)
